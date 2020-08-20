@@ -8,6 +8,7 @@ public class TestController {
     @GetMapping("/test")
     public String test() {
         System.out.println("feng");
+        System.out.println("master");
         return "test";
     }
 }
